@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Table</title>
     <style>
-        table,
-        th,
-        td {
-            border: 1px solid black;
+        body{
+            background-color: rgb(195, 198, 152);
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            
         }
 
-        /* Write code here to enhance the table. */
+      table,
+      tr {
+        border: 1px solid rgb(255, 0, 0);
+      }
+      .name {
+        background-color: rgb(26, 134, 228);
+        font-size: 20px;
+      }
+      .head {
+        background-color: rgb(24, 225, 158);
+        font-size: 30px;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-    <h2>HTML table</h2>
+  <body>
+    <div class="main">
 
-    <table style="width:100%">
-        <tr>
-            <th>Name</th>
-            <th>Course</th>
-            <th>Branch</th>
-        </tr>
-        <tr>
-            <td>Rahul</td>
-            <td>Btech</td>
-            <td>CSE</td>
-        </tr>
-        <tr>
-            <td>Sumit</td>
-            <td>Btech</td>
-            <td>IT</td>
-        </tr>
-        <tr>
-            <td>Mohit</td>
-            <td>Btech</td>
-            <td>ECE</td>
-        </tr>
+        <h2>HTML Table</h2>
+    </div>
+
+    <table style="width: 100%">
+      <tr class="head">
+        <th>Name</th>
+        <th>Course</th>
+        <th>Branch</th>
+      </tr>
+      <tr class="name">
+        <td>Rahul</td>
+        <td>Btech</td>
+        <td>CSE</td>
+      </tr>
+      <tr class="name">
+        <td>Sumit</td>
+        <td>Btech</td>
+        <td>IT</td>
+      </tr>
+      <tr class="name">
+        <td>Mohit</td>
+        <td>Btech</td>
+        <td>ECE</td>
+      </tr>
     </table>
-
-</body>
-
+  </body>
 </html>
+
